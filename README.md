@@ -8,8 +8,12 @@ An interactive flashcard allow user to manage and practice their subject sets.
 
 ## Main Features
 
-- [X] Feature 1: Manage user study set such as create, delete, update individual study sets or card sets in real time
-- [X] Feature 2: Quiz user and display result proficient based on correct answer in a set  
+* [X] Feature 1: Manage user study set such as create, delete, update individual study sets or card sets in real time
+* [X] Feature 2: Quiz user and display result proficient based on correct answer in a set
+
+
+Here's a walkthrough of implemented features:
+<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
