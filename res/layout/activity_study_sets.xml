@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".StudySets">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@color/green_bold"
+        android:paddingTop="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/green_text"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:text="My Study Sets"/>
+
+        <Button
+            android:id="@+id/new_set_btn"
+            android:onClick="addNewSet"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/green_text"
+            android:layout_marginHorizontal="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Add Study Set"/>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/study_sets_list"
+        android:layout_marginVertical="40dp"
+        android:divider="@color/white"
+        android:dividerHeight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"/>
+
+
+    <Button
+        android:id="@+id/refresh_study_sets"
+        android:onClick="refreshScreen"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/green_text"
+        android:textStyle="bold"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:text="Refresh"/>
+
+</LinearLayout>

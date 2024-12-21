@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:paddingVertical="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        >
+
+
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/green_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Study"/>
+
+        <TextView
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:textStyle="bold"
+            android:textColor="@color/green_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Corner"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/my_study_set_btn"
+            android:onClick="open_study_sets_activity"
+            android:layout_marginVertical="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/green_text"
+            android:backgroundTint="@color/green_bold"
+            android:text="My Study Sets"/>
+
+
+
+        <Button
+            android:id="@+id/quiz_me_btn"
+            android:onClick="open_quiz_activity"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/green_text"
+            android:backgroundTint="@color/green_bold"
+            android:text="Quiz Me"/>
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
