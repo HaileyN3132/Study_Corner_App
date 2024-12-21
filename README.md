@@ -13,7 +13,7 @@ An interactive flashcard allow user to manage and practice their subject sets.
 
 
 Here's a walkthrough of implemented features:
-<img src='' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/HaileyN3132/Study_Corner_App/blob/main/Demo_My_Study_Corner_App.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 
 
